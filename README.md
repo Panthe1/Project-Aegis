@@ -71,10 +71,10 @@ Using screen (simple method):
 screen -S discordbot
 
 # Run the bot inside the session
-python3 p.py
+python3 Project-Aegis.py
 
 # Detach from the session by pressing Ctrl+A, then D.
-# The bot will keep running. To re-attach later, use: screen -r discordbot
+# The bot will keep running. To re-attach later, use: screen -r Project-Aegis
  
 
 Your system is now fully operational!
