@@ -98,15 +98,18 @@ Find the numerical File ID from the CurseForge "Files" tab and provide it.
 The bot will handle the rest. It will create the server in Pterodactyl, run the installer, and notify you when it's complete and starting up.
 
 ❓ Troubleshooting
+
 •	API Request resulted in errors... must be a string: This is a legacy error. If you encounter it, ensure your Egg's variable validation for MODPACK_FILE_ID is set to nullable|string in the Pterodactyl Panel.
 •	Server crashes on startup: The installation was successful, but the modpack itself has issues (e.g., mod conflicts). This is not an installer error. Check the server console and the modpack's official issue page for solutions.
 •	Installation fails with No such file or directory: This can happen if the pack author has made a critical error in their server pack zip. Report the issue on the project's GitHub.
 
 ❤️ Contributing & Support
+
 This is a community-driven project, and we welcome contributions. Found a bug or have a feature request that would make this suite even better?
 •	Report Bugs: Please open an issue on our GitHub Issues page. Include as much detail as possible, including logs from both the bot and the Pterodactyl server installation console.
 
 •	Feature Requests: We'd love to hear your ideas! Open an issue and describe the new functionality you'd like to see.
 •	Pull Requests: If you'd like to contribute code, please fork the repository and submit a pull request.
-For direct support, please join our Official Discord Server.
+
+For direct support, please join our Official Discord Server at https://discord.gg/GF3YSbrR3r.
 
